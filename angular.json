@@ -27,7 +27,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+               
+              "src/assets/js/script.js",
+              "src/assets/js/jquery-3.6.1.js"
+          
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5e6645f0-80a9-43e7-9256-dfcc5633a225"
   }
 }

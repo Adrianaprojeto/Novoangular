@@ -1,1 +1,130 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;700 & family= Titillium+Web:wght@400;700 & display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+@media screen and (max-width:1000px)   {
+
+    #barras {
+        display: inline-block;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        height: 400px;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(42, 6, 109);
+    }
+
+    .cabecalho {
+
+        position: relative;
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width: 768px) { 
+    header {
+        background-color: rgb(42, 6, 109);
+     }
+
+     .logo {
+        width: 150px;
+     }   
+}
+
+
+
+
+
+
+
+@media screen and (max-width:730px) {
+    .logo {
+        width: 60vw;
+    }
+
+    .container {
+        width: 730px;
+    }
+
+    .menu {
+        width: 20vw;
+        display: grid;
+    }
+
+    .ofertas h2 {
+        font-size: 20px;
+    }
+
+    .cardnews {
+        width: 5.5em;
+        height: 12.5em;
+    }
+
+    .texto-card {
+        font-size: 13px;
+    }
+
+    .cardnews .preco {
+        font-size: 13px;
+    }
+
+    .links-footer {
+        display: grid;
+        padding-left: 70px;
+    }
+
+    .redes img {
+        width: 33px;
+    }
+
+    button.slick-prev {
+        width: 8px;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .container {
+        width: 330px;
+    }
+
+    .logo {
+        width: 65vw;
+        padding-left: 45px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .links-footer {
+        display: grid;
+    }
+
+    .redes img {
+        width: 26px;
+    }
+
+}

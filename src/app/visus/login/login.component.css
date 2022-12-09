@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(26, 22, 22);
+    align-items: center;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 150px;   
+}
+
+.login h3{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.login input{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 29px;
+    border-style: solid;
+    border-color: rgb(5, 4, 115);
+    
+}
+
+.login button{
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 29px;
+    background-color: rgb(5, 3, 50);
+    font-family: 'Inter', sans-serif;
+    border-color: white;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.cadastre-se{
+    display: flex;    
+}
+
+.cadastre-se p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.cadastre-se a{
+    color: blue;
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+}

@@ -1,0 +1,34 @@
+
+<main>
+    <form (ngSubmit) = "receberDados ()">
+    <div class="login">
+        <a href="index.html"><img src="/assets/img/logo.png" alt=""></a> 
+        <br> 
+            <h3>Login</h3>
+            <br>
+            <input type="email" placeholder="Email"[(ngModel)] ="userModel.email">
+            <br><br>
+            <input type="password" placeholder="Senha"[(ngModel)]= "userModel.password">
+            
+            <br><br>
+            <button onclick="cadastrarNewsletter()" >Enviar</button>
+            <br><br>
+            
+            <div class="cadastre-se">
+                <p>Não tem uma conta ?</p>
+                <br>
+                <a href="#">Cadastre-se aqui</a>
+                <a href="#" id="esquecer-senha" class="recuperar_senha">Esqueceu a senha?</a>
+            </div>
+            <p id = "mensagem" *ngIf=" mensagem != '' ">{{mensagem}}</p>
+    </div> 
+    
+    
+</form>
+
+
+<!-- <p id="mensagem" *ngIf=" mensagem != '' "> {{ mensagem }} </p> -->
+    <!-- <p *ngIf=" usuarioLogado != '' ">{{ usuarioLogado }}</p> -->
+</main>
+<app-footer></app-footer>
+<script src="script.js/script.js"></script>    

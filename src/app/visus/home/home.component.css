@@ -1,0 +1,345 @@
+
+#barras {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.icone-menu {
+    height: 40px;
+}
+
+/* .logo {} */
+
+.banner {
+    height: 610px;    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-f1 {
+    background-image: url(/assets/img/banner-f1.png);
+}
+
+.banner-cs {
+    background-image: url(/assets/img/banner_cs.png);
+}
+
+.banner-lol {
+    background-image: url(/assets/img/banner_lol.png);
+}
+
+.posicionamento-banner {
+    height: 100%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.conteudo-banner {
+    width: 495px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: white;
+}
+
+.conteudo-banner a {
+    padding: 15px;
+
+    color: white;
+    background-color: #C31616;
+    border-radius: 5px;
+
+    font-family: "Roboto";
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.conteudo-banner h1 {
+    font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.conteudo-banner p {
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.ofertas {
+    background-color: rgb(255, 249, 249);
+    padding-top: 30px;
+}
+
+/* .departamentos {
+    background-color: rgb(255, 249, 249);
+    padding-top: 30px;
+} */
+
+.ofertas h2 {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+/* .departamentos h2 {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 30px;
+} */
+
+/* espaço cards */
+.espaco-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 80vw;
+}
+
+.cardnews {
+    width: 11em;
+    height: 18.5em;
+    background: linear-gradient(180deg, rgba(83, 83, 83, 0.5) 0%, #000000 100%);
+    color: #fff;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0), 0px 0px 30px rgb(0, 0, 0);
+    
+    color: #1a71ae;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.cardnews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.cardnews img {
+    width: 100%;
+}
+
+/* informações dos cards */
+.texto-card {
+    width: 85%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.texto-card h3,
+.texto-card p {
+    margin: 0;
+}
+
+.cardnews h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cardnews .preco {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* final cards */
+
+
+
+
+.container {
+    min-width: 370px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+
+@media screen and (max-width:730px) {
+    .logo {
+        width: 60vw;
+    }
+
+    .container {
+        width: 730px;
+    }
+
+    .menu {
+        width: 20vw;
+        display: grid;
+    }
+
+    .ofertas h2 {
+        font-size: 20px;
+    }
+
+    .cardnews {
+        width: 5.5em;
+        height: 12.5em;
+    }
+
+    .texto-card {
+        font-size: 13px;
+    }
+
+    .cardnews .preco {
+        font-size: 13px;
+    }
+
+    .links-footer {
+        display: grid;
+        padding-left: 70px;
+    }
+
+    .redes img {
+        width: 33px;
+    }
+
+    button.slick-prev {
+        width: 8px;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .container {
+        width: 330px;
+    }
+
+    .logo {
+        width: 65vw;
+        padding-left: 45px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .links-footer {
+        display: grid;
+    }
+
+    .redes img {
+        width: 26px;
+    }
+
+}
+#barras {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.icone-menu {
+    height: 40px;
+}
+
+/* .logo {} */
+
+.banner {
+    height: 610px;    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color:rgb(26, 27, 27);
+}
+
+.banner1{
+
+    background-image:url(/assets/img/banner1.jpg) ;
+}
+.banner2{
+
+    background-image:url(/assets/img/banner2.png) ;
+ }
+ 
+ .banner3{
+ 
+     background-image:url(/assets/img/banner3.png) ;
+ 
+ }
+
+ @media screen and (max-width:1000px)   {
+
+
+    .container-grid {
+        width:  85vw;
+    }
+
+    
+}
+
+.secao-sobre {
+    background-image: url(/assets/img/fundo-sobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.texto-sobre {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
