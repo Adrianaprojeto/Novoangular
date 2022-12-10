@@ -35,6 +35,9 @@ export class LoginComponent implements OnInit{
     } else if (respostaErro.error == "Email and password are required") {
       alert("ERRO: Não é Possivel encontrar o Usuario")
     }
+     else if (respostaErro.error == "Email format is invalid") {
+    alert("ERRO: Formato de email invalido")
+    }
     else {
       this.mensagem = respostaErro.error
     }
